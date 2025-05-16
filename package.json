@@ -1,12 +1,12 @@
 {
-  "homepage": "https: //github.com/ecaliskan37/Project/",
+  "homepage": "https://github.com/ecaliskan37/Project/",
   "name": "imageproject",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
