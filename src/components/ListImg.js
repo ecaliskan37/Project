@@ -16,12 +16,7 @@ const ListImg = ({ list, setList }) => {
       {list.map((item) => {
         return (
           <div key={item.id}>
-            <img
-              key={item.id}
-              className="food-background"
-              src={item.img}
-              onClick={() => click(item.id)}
-            />
+            <img key={item.id} src={item.img} onClick={() => click(item.id)} />
             <div
               style={{
                 fontSize: `${item.size}px`,

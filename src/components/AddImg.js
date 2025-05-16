@@ -9,9 +9,8 @@ const AddImg = () => {
       ...list,
       {
         id: crypto.randomUUID(),
-        img: `https://picsum.photos/id/${Math.floor(
-          Math.random() * 1 + 1
-        )}/200/300.jpg`,
+        img: `https://picsum.photos/200/300?random=
+        ${Math.random() * 10 + 1}.jpg`,
         size: 10,
       },
     ])
